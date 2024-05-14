@@ -1,10 +1,10 @@
 import one
 
-print("top-level in two.py")
+print("top-level en two.py")
 
 one.func()
 
 if __name__ == "__main__":
-    print("two.py is being run directly")
+    print("two.py esta siendo corrida directamente")
 else:
-    print("two.py is being imported into another module")
+    print("two.py esta siendo importada de otro modulo")
